@@ -1,5 +1,5 @@
 <layouts>
-    <layout name="page1">
+    <layout name="root">
         <row> <!-- surface, the most common values for off-road cycling first -->
             <button type="tag" label="compacted" />
             <button type="tag" label="dirt" />
@@ -104,7 +104,7 @@
             <button type="tag" label="bollard" />
             <button type="tag" label="cycling gate" />
             <button type="tag" label="closed gate" />
-            <button type="page" label="first page" targetlayout="page1" />
+            <button type="page" label="first page" targetlayout="root" />
         </row>
         <row> <!-- incorrect/incomplete OSM data -->
             <button type="tag" label="oneway, cars no entry" />
